@@ -1,0 +1,83 @@
+.coin-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 250px;
+}
+
+.coin-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 223.69px;
+    border: 2px solid #03ffc8; 
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #25242c;
+}
+
+/*.coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgb(3, 255, 200); 
+    width: 900px;
+}*/
+
+.coin {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color: #25242c;
+}
+
+.coin h1,p {
+    margin: 10px;
+    background-color: #25242c;
+}
+
+.coin img {
+    height: 80px;
+    width: 80px;
+    background-color: #25242c;
+}
+
+.coin h1 {
+    font-size: 24px;
+    background-color: #25242c;
+}
+
+.coin-symbol {
+    text-transform: uppercase;
+    background-color: #25242c;
+}
+
+.coin-data {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   /* justify-content: space-between;*/
+    width: 100%;
+    background-color: #25242c;
+}
+
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(62, 218, 62);
+}
+
+.money {
+    color: rgb(0, 218, 80);
+}
