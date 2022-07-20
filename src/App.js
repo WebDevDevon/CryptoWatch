@@ -4,6 +4,7 @@ import "./App.css";
 import Coin from "./Coin";
 import searchimg from "./searchimg.png";
 import FadeIn from "react-fade-in";
+import Clock from 'react-digital-clock';
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -39,6 +40,7 @@ function App() {
         <div className="coin-search">
           <img className="glass" src={searchimg} alt="" />
           <h1 className="coin-text">Search a Crypto Currency</h1>
+          <Clock />
           <h1>{date}</h1>
           <form>
             <input
